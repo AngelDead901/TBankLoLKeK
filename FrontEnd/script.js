@@ -1,4 +1,10 @@
 // alert("Hello World");
+const squareIsLoh = document.getElementById("square");
+let count = 0;
 
-let x = 10;
-const y = -20;
+squareIsLoh.addEventListener("click", function() {
+    count++;
+    console.clear();
+    console.log(count);
+    squareIsLoh.classList.toggle("squareLoh");
+})
