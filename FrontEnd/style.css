@@ -1,63 +1,17 @@
 body{
       font-family: Arial, Helvetica, sans-serif;
       background-color: #e0e0e0;
+      margin: 0; padding: 0;
 }
 
-.lols{
-      display: flex;
-      justify-content: space-between;
-      flex-direction: row-reverse;
-      margin: 10px 10px 20px;
+.square{
+      width: 200px;
+      height: 200px;
+      border-radius: 28px;
+      background-color: #000000;
+      transition: all 0.35s;
 }
 
-.lol{
-      font-size: 100px;
-      box-sizing: border-box;
-      padding: 10px;
-      width: 150px;
-      height: 270px;
-      border: 2px #000000 solid;
-      border-radius: 5%;
-      text-align: center;
-      box-shadow: 0px 0px 15px rgba(255, 80, 68, 0.38);
-}
-
-@keyframes spinner {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-}
-
-@keyframes transfer {
-      0% {
-            transform: rotate(0deg)  scale(100%)translate(500px, 0px);
-      }
-      25%{
-            transform: rotate(-360deg)  scale(50%)translate(-250px, 0px);
-      }
-      50% {
-            transform: rotate(-720deg)  scale(200%) translate(0px, 0px);
-      }
-      75%{
-            transform: rotate(-360deg)  scale(50%) translate(-250px, 0px);
-      }
-      100%{
-            transform: rotate(0deg)  scale(100%)translate(500px, 0px);
-      }
-}
-
-.anim{
-      width: 100px;
-      height: 100px;
-      background-color: #493aff;
-      border-radius: 5px;
-      margin: 100px 100px;
-}
-
-.trans{
-      width: 100px;
-      height: 100px;
-      background-color: #493aff;
-      border-radius: 5px;
-      margin: 400px auto;
-      animation: transfer 2000ms infinite linear;
+.squareLoh {
+      transform: rotate(283deg);
 }
