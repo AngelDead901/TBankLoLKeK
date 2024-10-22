@@ -1,0 +1,2 @@
+c++ c# c python java js assembler паскаль кумир turbo-pascal gcc(вроде как слегка измененный в плане компиляции c++)
+go rust php html(??? скорее нет чем да) css(???) swift apple-script
