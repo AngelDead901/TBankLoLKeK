@@ -1,17 +1,43 @@
 body{
-      font-family: Arial, Helvetica, sans-serif;
-      background-color: #e0e0e0;
-      margin: 0; padding: 0;
+    padding: 0;
+    margin: 0;
 }
 
-.square{
-      width: 200px;
-      height: 200px;
-      border-radius: 28px;
-      background-color: #000000;
-      transition: all 0.35s;
+.container{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    flex-direction: column;
 }
 
-.squareLoh {
-      transform: rotate(1080deg);
+.metricBox{
+    background-color: red;
+    border-radius: 10px;
+    height: 400px;
+    width: 500px;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    padding: 150px;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: #78a2ff;
+    width: 250px;
+    color: white;
+    height: 80px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+}
+
+.display{
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
 }
